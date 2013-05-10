@@ -1,0 +1,12 @@
+#
+#   Author: Jayant Gandhi
+#
+#   Date: 10/9/2012
+#
+#
+#   Basic makefile to create vectorSort.exe (UNIX)
+#   (It doesn't use dependencies, but it works!)
+#
+
+all:
+		g++ VectorSort.cpp person.cpp -o vectorSort.exe
